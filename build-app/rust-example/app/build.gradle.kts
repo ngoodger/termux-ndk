@@ -41,7 +41,7 @@ android {
         prebuiltToolchains = true
         module  = "../rust"       // Or whatever directory contains your Cargo.toml
         libname = "rust"          // Or whatever matches Cargo.toml's [package] name.
-        targets = listOf("arm64", "arm", "x86", "x86_64")  // See bellow for a longer list of options
+        targets = listOf("arm64" )  // See bellow for a longer list of options
     }
     
     tasks.whenTaskAdded {
